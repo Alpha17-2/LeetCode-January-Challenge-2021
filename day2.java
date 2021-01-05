@@ -11,10 +11,6 @@
 class Solution {
     static TreeNode ans,current;
     static boolean found=false;
-<<<<<<< HEAD
-=======
-    
->>>>>>> 12c435e22a5ef4015ac1be0ed09497adb88c27a5
     public final TreeNode getTargetCopy(final TreeNode original, final TreeNode clone, final TreeNode target) {
         current=clone;
         findPreorder(current,target,found);
@@ -34,8 +30,4 @@ class Solution {
         findPreorder(current.left, target, found);
         findPreorder(current.right, target, found);
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 12c435e22a5ef4015ac1be0ed09497adb88c27a5
